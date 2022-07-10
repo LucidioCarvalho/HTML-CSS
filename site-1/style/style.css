@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">);
+
+font-family: 'Roboto', sans-serif;
+
+* {
+    margin: 0px;
+    padding: 10px;
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+    width: 100%;
+   
+}
+img{
+    width: 100%;
+}
+main{
+    background-color:rgba(240, 255, 255, 0.705);
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 850px;
+    min-width: 320px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.363);
+}
+
+
+body{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.video {
+    padding: 30px;
+    position: relative;
+    padding-bottom: 50%;
+
+}
+
+div.video > iframe{
+ position: absolute;
+ top: 5%;
+ left: 5%;
+ width: 90%;
+ height: 90%;
+}
+
+
+nav{
+    text-align: center;
+    padding: 10px;
+   
+}
+
+nav > a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: 1s;
+    }
+
+nav > a:hover{
+    background-color: rgb(10, 10, 10);
+    color: rgb(241, 245, 245);
+}
+    
+
+header{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+main p{
+    font-family: 'Roboto', sans-serif;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent:  30px;
+    font-size: large;   
+    line-height: 2em;
+}
+main a{
+    font-weight: bold;
+    padding: 2px 6px;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+}
+aside{
+    background-color: rgba(15, 15, 15, 0.151);
+    padding: 0px;
+    border-radius: 3px;
+    line-height: 2em;
+
+}
+aside > ul{
+    list-style-type:'\1F5F8\00A0';
+    columns: 2;
+}
+
+
+a.externo::after {
+    content: '\1F517';
+
+}
+
